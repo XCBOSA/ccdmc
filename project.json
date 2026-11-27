@@ -1,0 +1,22 @@
+{
+  "allowExecution" : false,
+  "cLanguageStandard" : "c11",
+  "cxxLanguageStandard" : "c++11",
+  "description" : "",
+  "enableLegacySourceCompatibility" : true,
+  "formatIdentifier" : "org.forgetive.ccd.project",
+  "formatVersion" : 3,
+  "linkerArguments" : "-lrt -lSDL3",
+  "mainArguments" : "",
+  "optimizationLevel" : "-Ofast",
+  "parallelCompilationEnabled" : true,
+  "predefinedStdin" : "",
+  "projectId" : "21DA2DC9-722E-4180-B8BB-BB70D99B9684",
+  "references" : [
+
+  ],
+  "shownBreakpointNotices" : [
+    "cExecutor"
+  ],
+  "useLegacyInterpreter" : false
+}

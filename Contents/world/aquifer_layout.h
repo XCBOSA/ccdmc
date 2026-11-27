@@ -1,0 +1,13 @@
+#ifndef VOXEL_AQUIFER_LAYOUT_H
+#define VOXEL_AQUIFER_LAYOUT_H
+
+/* Chamber-local coordinates, shared by terrain, transport and sampling. */
+enum {
+    AQUIFER_FLOOR=54, AQUIFER_ROOF=64,
+    AQUIFER_DOCK_Z=2,
+    AQUIFER_BRINE_X=-15, AQUIFER_BRINE_Y=52,
+    AQUIFER_VENT_X=15, AQUIFER_VENT_Y=55,
+    AQUIFER_SEAL_X=AQUIFER_VENT_X-1, AQUIFER_SEAL_Y=AQUIFER_FLOOR,
+    SEEP_GARDEN_X=-12, SEEP_GARDEN_Y=53, SEEP_GARDEN_Z=3
+};
+#endif
